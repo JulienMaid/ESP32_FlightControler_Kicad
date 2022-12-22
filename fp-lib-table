@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Controleur_Vol_ESP32")(type "KiCad")(uri "/home/julien/Documents/Bocal/Controleur de Vol Drone/Controleur_Vol_ESP32.pretty")(options "")(descr ""))
   (lib (name "Library_JBO")(type "KiCad")(uri "${KIPRJMOD}/Library_JBO.pretty")(options "")(descr ""))
+  (lib (name "esp32-devkit-v1")(type "KiCad")(uri "${KIPRJMOD}/doit-esp32-devkit-v1/kicad/Footprints")(options "")(descr ""))
 )

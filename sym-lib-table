@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "esp32_devkit_v1_doit")(type "KiCad")(uri "/home/julien/Documents/Projets_JB/ESP32/doit-esp32-devkit-v1/kicad/Symbols/esp32_devkit_v1_doit.kicad_sym")(options "")(descr ""))
   (lib (name "LM298")(type "KiCad")(uri "${KIPRJMOD}/Library_JBO.pretty/LM298.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32_devkit_v1_doit")(type "KiCad")(uri "${KIPRJMOD}/doit-esp32-devkit-v1/kicad/Symbols/esp32_devkit_v1_doit.kicad_sym")(options "")(descr ""))
 )
