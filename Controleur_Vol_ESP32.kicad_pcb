@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "Immersion gold")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -488,7 +501,7 @@
 
   (footprint "Library_JBO:LM298_CI" (layer "F.Cu")
     (tedit 0) (tstamp 20659355-e126-43d9-b91f-b2015a29aa03)
-    (at 127.25 221.23)
+    (at 139.455 272.225)
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
     (property "Sheetname" "")
     (path "/aea10328-230a-4739-b4d5-668a9b3fd1a0")
@@ -524,7 +537,7 @@
     (pad "9" thru_hole oval (at 4.54 19.5) (size 2 3.2) (drill 0.8) (layers *.Cu *.Mask)
       (net 39 "ESC3_5V") (pinfunction "OUT3") (pintype "output") (tstamp e9a45d2a-f419-4432-be47-d64d78e64b19))
     (pad "10" thru_hole oval (at 2 19.5) (size 2 3.2) (drill 0.8) (layers *.Cu *.Mask)
-      (net 39 "ESC3_5V") (pinfunction "OUT4") (pintype "output") (tstamp 309e3677-d274-443d-8c4c-2c6325d10356))
+      (net 41 "ESC4_5V") (pinfunction "OUT4") (pintype "output") (tstamp 309e3677-d274-443d-8c4c-2c6325d10356))
   )
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
@@ -941,7 +954,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4a1f273a-5dcf-4a33-a375-0bbb42b7718b)
-    (at 164.385 249.975)
+    (at 127 233.68)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
@@ -1202,7 +1215,7 @@
 
   (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6d116312-b577-4db4-b439-42b0dd0de07e)
-    (at 192.285 228.705)
+    (at 218.44 264.16)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
@@ -1426,7 +1439,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 7e74740e-2b33-4833-b1a8-313c45f59ab0)
-    (at 180.155 245.665)
+    (at 233.68 248.92)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
@@ -1566,7 +1579,7 @@
 
   (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
     (tedit 59FF03AB) (tstamp 89a320dc-e281-4303-b8b8-36aedd1e3d96)
-    (at 160.215 247.865)
+    (at 215.9 236.22)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
@@ -2216,7 +2229,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp c7bb7393-45f9-42dc-ae77-7ef0dbb3b51a)
-    (at 151.135 222.805)
+    (at 116.84 275.605)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")
@@ -2452,7 +2465,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp d2b98708-b868-4ae0-9d98-82aa40c30d5c)
-    (at 168.605 255.365)
+    (at 243.84 238.76)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Controleur_Vol_ESP32.kicad_sch")

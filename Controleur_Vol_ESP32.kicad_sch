@@ -2332,7 +2332,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ESC3_5V" (shape input) (at 212.09 39.37 0) (fields_autoplaced)
+  (global_label "ESC4_5V" (shape input) (at 212.09 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid afa35c49-4e08-497b-b50f-66cd095de6d9)
     (property "Références Inter-Feuilles" "${INTERSHEET_REFS}" (id 0) (at 222.6069 39.2906 0)
