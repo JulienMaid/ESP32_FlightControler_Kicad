@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Controleur Vol ESP32")
+    (date "2022-12-23")
+    (rev "1.0.0")
+    (company "Bocal Chemillé")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -3274,8 +3281,8 @@
     )
     (pin "1" (uuid 2a55dc9c-a439-4a6d-a81e-7703d91baa34))
     (pin "10" (uuid 3d653e48-76d8-4af8-b575-295bf32c576c))
-    (pin "2" (uuid 50eaab21-3df0-4435-8a95-d5c374853726))
-    (pin "2" (uuid 50eaab21-3df0-4435-8a95-d5c374853726))
+    (pin "2" (uuid 50eaab21-3df0-4435-8a95-d5c374853727))
+    (pin "2" (uuid 50eaab21-3df0-4435-8a95-d5c374853727))
     (pin "4" (uuid 9f76a918-6e78-4b7d-a61b-edb18ba316ed))
     (pin "5" (uuid e40d60d4-c2e9-4949-bb9a-3e2836c898c0))
     (pin "6" (uuid 248b8e39-06eb-419c-9127-9410e9d443fd))
