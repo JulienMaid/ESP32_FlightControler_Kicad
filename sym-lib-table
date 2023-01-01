@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name "LM298")(type "KiCad")(uri "${KIPRJMOD}/Library_JBO.pretty/LM298.kicad_sym")(options "")(descr ""))
   (lib (name "esp32_devkit_v1_doit")(type "KiCad")(uri "${KIPRJMOD}/doit-esp32-devkit-v1/kicad/Symbols/esp32_devkit_v1_doit.kicad_sym")(options "")(descr ""))
+  (lib (name "Project_Lib")(type "KiCad")(uri "${KIPRJMOD}/Library_JBO.pretty/Project_Lib.kicad_sym")(options "")(descr ""))
 )
